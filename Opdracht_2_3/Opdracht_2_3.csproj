@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4D1DEA0A-CBF4-41B6-B659-92305644BB0A}</ProjectGuid>
+    <ProjectGuid>{319E7941-2E41-4853-BB4B-12D025683296}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Opdracht_1_1</RootNamespace>
-    <AssemblyName>Opdracht_1_1</AssemblyName>
+    <RootNamespace>Opdracht_2_3</RootNamespace>
+    <AssemblyName>Opdracht_2_3</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Boek.cs" />
-    <Compile Include="BoekHandel.cs" />
-    <Compile Include="BoekHandelItem.cs" />
-    <Compile Include="CD.cs" />
+    <Compile Include="FancyMP3Display.cs" />
+    <Compile Include="IObserver.cs" />
+    <Compile Include="ISubject.cs" />
+    <Compile Include="MP3Player.cs" />
+    <Compile Include="Nummer.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Weekblad.cs" />
+    <Compile Include="SimpleMP3Display.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
